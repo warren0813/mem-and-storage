@@ -1,0 +1,1147 @@
+desc: --time-unit=B
+cmd: ./heap
+time_unit: B
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=1016
+mem_heap_B=1000
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=2
+#-----------
+time=2032
+mem_heap_B=2000
+mem_heap_extra_B=32
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=3
+#-----------
+time=3048
+mem_heap_B=3000
+mem_heap_extra_B=48
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=4
+#-----------
+time=4064
+mem_heap_B=4000
+mem_heap_extra_B=64
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=5
+#-----------
+time=5080
+mem_heap_B=5000
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=6
+#-----------
+time=6096
+mem_heap_B=6000
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=7
+#-----------
+time=7112
+mem_heap_B=7000
+mem_heap_extra_B=112
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=8
+#-----------
+time=8128
+mem_heap_B=8000
+mem_heap_extra_B=128
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=9
+#-----------
+time=9144
+mem_heap_B=9000
+mem_heap_extra_B=144
+mem_stacks_B=0
+heap_tree=detailed
+n1: 9000 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n0: 9000 0x109293: main (in /home/warren/mem-and-storage/HW2/heap)
+#-----------
+snapshot=10
+#-----------
+time=10160
+mem_heap_B=10000
+mem_heap_extra_B=160
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=11
+#-----------
+time=11176
+mem_heap_B=11000
+mem_heap_extra_B=176
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=12
+#-----------
+time=13184
+mem_heap_B=13000
+mem_heap_extra_B=184
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=13
+#-----------
+time=17192
+mem_heap_B=17000
+mem_heap_extra_B=192
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=14
+#-----------
+time=21200
+mem_heap_B=21000
+mem_heap_extra_B=200
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=15
+#-----------
+time=25208
+mem_heap_B=25000
+mem_heap_extra_B=208
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=16
+#-----------
+time=33216
+mem_heap_B=33000
+mem_heap_extra_B=216
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=17
+#-----------
+time=35224
+mem_heap_B=35000
+mem_heap_extra_B=224
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=18
+#-----------
+time=39232
+mem_heap_B=39000
+mem_heap_extra_B=232
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=19
+#-----------
+time=43240
+mem_heap_B=43000
+mem_heap_extra_B=240
+mem_stacks_B=0
+heap_tree=detailed
+n5: 43000 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n4: 20000 0x10919A: a (in /home/warren/mem-and-storage/HW2/heap)
+  n2: 8000 0x1091B4: b (in /home/warren/mem-and-storage/HW2/heap)
+   n1: 4000 0x1091CE: c (in /home/warren/mem-and-storage/HW2/heap)
+    n1: 4000 0x10922F: e (in /home/warren/mem-and-storage/HW2/heap)
+     n0: 4000 0x1092AF: main (in /home/warren/mem-and-storage/HW2/heap)
+   n1: 4000 0x109220: e (in /home/warren/mem-and-storage/HW2/heap)
+    n0: 4000 0x1092AF: main (in /home/warren/mem-and-storage/HW2/heap)
+  n1: 4000 0x1091D3: c (in /home/warren/mem-and-storage/HW2/heap)
+   n1: 4000 0x10922F: e (in /home/warren/mem-and-storage/HW2/heap)
+    n0: 4000 0x1092AF: main (in /home/warren/mem-and-storage/HW2/heap)
+  n1: 4000 0x109225: e (in /home/warren/mem-and-storage/HW2/heap)
+   n0: 4000 0x1092AF: main (in /home/warren/mem-and-storage/HW2/heap)
+  n1: 4000 0x10922A: e (in /home/warren/mem-and-storage/HW2/heap)
+   n0: 4000 0x1092AF: main (in /home/warren/mem-and-storage/HW2/heap)
+ n0: 10000 0x109293: main (in /home/warren/mem-and-storage/HW2/heap)
+ n1: 8000 0x1091C9: c (in /home/warren/mem-and-storage/HW2/heap)
+  n1: 8000 0x10922F: e (in /home/warren/mem-and-storage/HW2/heap)
+   n0: 8000 0x1092AF: main (in /home/warren/mem-and-storage/HW2/heap)
+ n2: 4000 0x1091AF: b (in /home/warren/mem-and-storage/HW2/heap)
+  n1: 2000 0x1091CE: c (in /home/warren/mem-and-storage/HW2/heap)
+   n1: 2000 0x10922F: e (in /home/warren/mem-and-storage/HW2/heap)
+    n0: 2000 0x1092AF: main (in /home/warren/mem-and-storage/HW2/heap)
+  n1: 2000 0x109220: e (in /home/warren/mem-and-storage/HW2/heap)
+   n0: 2000 0x1092AF: main (in /home/warren/mem-and-storage/HW2/heap)
+ n1: 1000 0x10921B: e (in /home/warren/mem-and-storage/HW2/heap)
+  n0: 1000 0x1092AF: main (in /home/warren/mem-and-storage/HW2/heap)
+#-----------
+snapshot=20
+#-----------
+time=45248
+mem_heap_B=45000
+mem_heap_extra_B=248
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=21
+#-----------
+time=49256
+mem_heap_B=49000
+mem_heap_extra_B=256
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=22
+#-----------
+time=65264
+mem_heap_B=65000
+mem_heap_extra_B=264
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=23
+#-----------
+time=67272
+mem_heap_B=67000
+mem_heap_extra_B=272
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=24
+#-----------
+time=71280
+mem_heap_B=71000
+mem_heap_extra_B=280
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=25
+#-----------
+time=79288
+mem_heap_B=79000
+mem_heap_extra_B=288
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=26
+#-----------
+time=81296
+mem_heap_B=81000
+mem_heap_extra_B=296
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=27
+#-----------
+time=85304
+mem_heap_B=85000
+mem_heap_extra_B=304
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=28
+#-----------
+time=89312
+mem_heap_B=89000
+mem_heap_extra_B=312
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=29
+#-----------
+time=91320
+mem_heap_B=91000
+mem_heap_extra_B=320
+mem_stacks_B=0
+heap_tree=detailed
+n6: 91000 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n4: 36000 0x10919A: a (in /home/warren/mem-and-storage/HW2/heap)
+  n4: 20000 0x1091B4: b (in /home/warren/mem-and-storage/HW2/heap)
+   n2: 8000 0x1091CE: c (in /home/warren/mem-and-storage/HW2/heap)
+    n1: 4000 0x1091F7: d (in /home/warren/mem-and-storage/HW2/heap)
+     n1: 4000 0x109234: e (in /home/warren/mem-and-storage/HW2/heap)
+      n0: 4000 0x1092AF: main (in /home/warren/mem-and-storage/HW2/heap)
+    n1: 4000 0x10922F: e (in /home/warren/mem-and-storage/HW2/heap)
+     n0: 4000 0x1092AF: main (in /home/warren/mem-and-storage/HW2/heap)
+   n1: 4000 0x1091D8: c (in /home/warren/mem-and-storage/HW2/heap)
+    n1: 4000 0x10922F: e (in /home/warren/mem-and-storage/HW2/heap)
+     n0: 4000 0x1092AF: main (in /home/warren/mem-and-storage/HW2/heap)
+   n1: 4000 0x1091F2: d (in /home/warren/mem-and-storage/HW2/heap)
+    n1: 4000 0x109234: e (in /home/warren/mem-and-storage/HW2/heap)
+     n0: 4000 0x1092AF: main (in /home/warren/mem-and-storage/HW2/heap)
+   n1: 4000 0x109220: e (in /home/warren/mem-and-storage/HW2/heap)
+    n0: 4000 0x1092AF: main (in /home/warren/mem-and-storage/HW2/heap)
+  n2: 8000 0x1091D3: c (in /home/warren/mem-and-storage/HW2/heap)
+   n1: 4000 0x1091F7: d (in /home/warren/mem-and-storage/HW2/heap)
+    n1: 4000 0x109234: e (in /home/warren/mem-and-storage/HW2/heap)
+     n0: 4000 0x1092AF: main (in /home/warren/mem-and-storage/HW2/heap)
+   n1: 4000 0x10922F: e (in /home/warren/mem-and-storage/HW2/heap)
+    n0: 4000 0x1092AF: main (in /home/warren/mem-and-storage/HW2/heap)
+  n1: 4000 0x109225: e (in /home/warren/mem-and-storage/HW2/heap)
+   n0: 4000 0x1092AF: main (in /home/warren/mem-and-storage/HW2/heap)
+  n1: 4000 0x10922A: e (in /home/warren/mem-and-storage/HW2/heap)
+   n0: 4000 0x1092AF: main (in /home/warren/mem-and-storage/HW2/heap)
+ n2: 16000 0x1091C9: c (in /home/warren/mem-and-storage/HW2/heap)
+  n1: 8000 0x1091F7: d (in /home/warren/mem-and-storage/HW2/heap)
+   n1: 8000 0x109234: e (in /home/warren/mem-and-storage/HW2/heap)
+    n0: 8000 0x1092AF: main (in /home/warren/mem-and-storage/HW2/heap)
+  n1: 8000 0x10922F: e (in /home/warren/mem-and-storage/HW2/heap)
+   n0: 8000 0x1092AF: main (in /home/warren/mem-and-storage/HW2/heap)
+ n1: 16000 0x1091ED: d (in /home/warren/mem-and-storage/HW2/heap)
+  n1: 16000 0x109234: e (in /home/warren/mem-and-storage/HW2/heap)
+   n0: 16000 0x1092AF: main (in /home/warren/mem-and-storage/HW2/heap)
+ n4: 12000 0x1091AF: b (in /home/warren/mem-and-storage/HW2/heap)
+  n2: 4000 0x1091CE: c (in /home/warren/mem-and-storage/HW2/heap)
+   n1: 2000 0x1091F7: d (in /home/warren/mem-and-storage/HW2/heap)
+    n1: 2000 0x109234: e (in /home/warren/mem-and-storage/HW2/heap)
+     n0: 2000 0x1092AF: main (in /home/warren/mem-and-storage/HW2/heap)
+   n1: 2000 0x10922F: e (in /home/warren/mem-and-storage/HW2/heap)
+    n0: 2000 0x1092AF: main (in /home/warren/mem-and-storage/HW2/heap)
+  n2: 4000 0x1091D8: c (in /home/warren/mem-and-storage/HW2/heap)
+   n1: 2000 0x1091F7: d (in /home/warren/mem-and-storage/HW2/heap)
+    n1: 2000 0x109234: e (in /home/warren/mem-and-storage/HW2/heap)
+     n0: 2000 0x1092AF: main (in /home/warren/mem-and-storage/HW2/heap)
+   n1: 2000 0x10922F: e (in /home/warren/mem-and-storage/HW2/heap)
+    n0: 2000 0x1092AF: main (in /home/warren/mem-and-storage/HW2/heap)
+  n1: 2000 0x1091F2: d (in /home/warren/mem-and-storage/HW2/heap)
+   n1: 2000 0x109234: e (in /home/warren/mem-and-storage/HW2/heap)
+    n0: 2000 0x1092AF: main (in /home/warren/mem-and-storage/HW2/heap)
+  n1: 2000 0x109220: e (in /home/warren/mem-and-storage/HW2/heap)
+   n0: 2000 0x1092AF: main (in /home/warren/mem-and-storage/HW2/heap)
+ n0: 10000 0x109293: main (in /home/warren/mem-and-storage/HW2/heap)
+ n1: 1000 0x10921B: e (in /home/warren/mem-and-storage/HW2/heap)
+  n0: 1000 0x1092AF: main (in /home/warren/mem-and-storage/HW2/heap)
+#-----------
+snapshot=30
+#-----------
+time=95328
+mem_heap_B=95000
+mem_heap_extra_B=328
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=31
+#-----------
+time=99336
+mem_heap_B=99000
+mem_heap_extra_B=336
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=32
+#-----------
+time=107344
+mem_heap_B=107000
+mem_heap_extra_B=344
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=33
+#-----------
+time=109352
+mem_heap_B=109000
+mem_heap_extra_B=352
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=34
+#-----------
+time=113360
+mem_heap_B=113000
+mem_heap_extra_B=360
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=35
+#-----------
+time=117368
+mem_heap_B=117000
+mem_heap_extra_B=368
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=36
+#-----------
+time=119376
+mem_heap_B=119000
+mem_heap_extra_B=376
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=37
+#-----------
+time=123384
+mem_heap_B=123000
+mem_heap_extra_B=384
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=38
+#-----------
+time=127392
+mem_heap_B=127000
+mem_heap_extra_B=392
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=39
+#-----------
+time=129400
+mem_heap_B=129000
+mem_heap_extra_B=400
+mem_stacks_B=0
+heap_tree=detailed
+n6: 129000 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n6: 60000 0x10919A: a (in /home/warren/mem-and-storage/HW2/heap)
+  n4: 32000 0x1091B4: b (in /home/warren/mem-and-storage/HW2/heap)
+   n3: 12000 0x1091CE: c (in /home/warren/mem-and-storage/HW2/heap)
+    n1: 4000 0x1091F7: d (in /home/warren/mem-and-storage/HW2/heap)
+     n1: 4000 0x109234: e (in /home/warren/mem-and-storage/HW2/heap)
+      n0: 4000 0x1092AF: main (in /home/warren/mem-and-storage/HW2/heap)
+    n1: 4000 0x109201: d (in /home/warren/mem-and-storage/HW2/heap)
+     n1: 4000 0x109234: e (in /home/warren/mem-and-storage/HW2/heap)
+      n0: 4000 0x1092AF: main (in /home/warren/mem-and-storage/HW2/heap)
+    n1: 4000 0x10922F: e (in /home/warren/mem-and-storage/HW2/heap)
+     n0: 4000 0x1092AF: main (in /home/warren/mem-and-storage/HW2/heap)
+   n3: 12000 0x1091D8: c (in /home/warren/mem-and-storage/HW2/heap)
+    n1: 4000 0x1091F7: d (in /home/warren/mem-and-storage/HW2/heap)
+     n1: 4000 0x109234: e (in /home/warren/mem-and-storage/HW2/heap)
+      n0: 4000 0x1092AF: main (in /home/warren/mem-and-storage/HW2/heap)
+    n1: 4000 0x109201: d (in /home/warren/mem-and-storage/HW2/heap)
+     n1: 4000 0x109234: e (in /home/warren/mem-and-storage/HW2/heap)
+      n0: 4000 0x1092AF: main (in /home/warren/mem-and-storage/HW2/heap)
+    n1: 4000 0x10922F: e (in /home/warren/mem-and-storage/HW2/heap)
+     n0: 4000 0x1092AF: main (in /home/warren/mem-and-storage/HW2/heap)
+   n1: 4000 0x1091F2: d (in /home/warren/mem-and-storage/HW2/heap)
+    n1: 4000 0x109234: e (in /home/warren/mem-and-storage/HW2/heap)
+     n0: 4000 0x1092AF: main (in /home/warren/mem-and-storage/HW2/heap)
+   n1: 4000 0x109220: e (in /home/warren/mem-and-storage/HW2/heap)
+    n0: 4000 0x1092AF: main (in /home/warren/mem-and-storage/HW2/heap)
+  n3: 12000 0x1091D3: c (in /home/warren/mem-and-storage/HW2/heap)
+   n1: 4000 0x1091F7: d (in /home/warren/mem-and-storage/HW2/heap)
+    n1: 4000 0x109234: e (in /home/warren/mem-and-storage/HW2/heap)
+     n0: 4000 0x1092AF: main (in /home/warren/mem-and-storage/HW2/heap)
+   n1: 4000 0x109201: d (in /home/warren/mem-and-storage/HW2/heap)
+    n1: 4000 0x109234: e (in /home/warren/mem-and-storage/HW2/heap)
+     n0: 4000 0x1092AF: main (in /home/warren/mem-and-storage/HW2/heap)
+   n1: 4000 0x10922F: e (in /home/warren/mem-and-storage/HW2/heap)
+    n0: 4000 0x1092AF: main (in /home/warren/mem-and-storage/HW2/heap)
+  n1: 4000 0x1091FC: d (in /home/warren/mem-and-storage/HW2/heap)
+   n1: 4000 0x109234: e (in /home/warren/mem-and-storage/HW2/heap)
+    n0: 4000 0x1092AF: main (in /home/warren/mem-and-storage/HW2/heap)
+  n1: 4000 0x109206: d (in /home/warren/mem-and-storage/HW2/heap)
+   n1: 4000 0x109234: e (in /home/warren/mem-and-storage/HW2/heap)
+    n0: 4000 0x1092AF: main (in /home/warren/mem-and-storage/HW2/heap)
+  n1: 4000 0x109225: e (in /home/warren/mem-and-storage/HW2/heap)
+   n0: 4000 0x1092AF: main (in /home/warren/mem-and-storage/HW2/heap)
+  n1: 4000 0x10922A: e (in /home/warren/mem-and-storage/HW2/heap)
+   n0: 4000 0x1092AF: main (in /home/warren/mem-and-storage/HW2/heap)
+ n3: 24000 0x1091C9: c (in /home/warren/mem-and-storage/HW2/heap)
+  n1: 8000 0x1091F7: d (in /home/warren/mem-and-storage/HW2/heap)
+   n1: 8000 0x109234: e (in /home/warren/mem-and-storage/HW2/heap)
+    n0: 8000 0x1092AF: main (in /home/warren/mem-and-storage/HW2/heap)
+  n1: 8000 0x109201: d (in /home/warren/mem-and-storage/HW2/heap)
+   n1: 8000 0x109234: e (in /home/warren/mem-and-storage/HW2/heap)
+    n0: 8000 0x1092AF: main (in /home/warren/mem-and-storage/HW2/heap)
+  n1: 8000 0x10922F: e (in /home/warren/mem-and-storage/HW2/heap)
+   n0: 8000 0x1092AF: main (in /home/warren/mem-and-storage/HW2/heap)
+ n5: 18000 0x1091AF: b (in /home/warren/mem-and-storage/HW2/heap)
+  n3: 6000 0x1091CE: c (in /home/warren/mem-and-storage/HW2/heap)
+   n1: 2000 0x1091F7: d (in /home/warren/mem-and-storage/HW2/heap)
+    n1: 2000 0x109234: e (in /home/warren/mem-and-storage/HW2/heap)
+     n0: 2000 0x1092AF: main (in /home/warren/mem-and-storage/HW2/heap)
+   n1: 2000 0x109201: d (in /home/warren/mem-and-storage/HW2/heap)
+    n1: 2000 0x109234: e (in /home/warren/mem-and-storage/HW2/heap)
+     n0: 2000 0x1092AF: main (in /home/warren/mem-and-storage/HW2/heap)
+   n1: 2000 0x10922F: e (in /home/warren/mem-and-storage/HW2/heap)
+    n0: 2000 0x1092AF: main (in /home/warren/mem-and-storage/HW2/heap)
+  n3: 6000 0x1091D8: c (in /home/warren/mem-and-storage/HW2/heap)
+   n1: 2000 0x1091F7: d (in /home/warren/mem-and-storage/HW2/heap)
+    n1: 2000 0x109234: e (in /home/warren/mem-and-storage/HW2/heap)
+     n0: 2000 0x1092AF: main (in /home/warren/mem-and-storage/HW2/heap)
+   n1: 2000 0x109201: d (in /home/warren/mem-and-storage/HW2/heap)
+    n1: 2000 0x109234: e (in /home/warren/mem-and-storage/HW2/heap)
+     n0: 2000 0x1092AF: main (in /home/warren/mem-and-storage/HW2/heap)
+   n1: 2000 0x10922F: e (in /home/warren/mem-and-storage/HW2/heap)
+    n0: 2000 0x1092AF: main (in /home/warren/mem-and-storage/HW2/heap)
+  n1: 2000 0x1091F2: d (in /home/warren/mem-and-storage/HW2/heap)
+   n1: 2000 0x109234: e (in /home/warren/mem-and-storage/HW2/heap)
+    n0: 2000 0x1092AF: main (in /home/warren/mem-and-storage/HW2/heap)
+  n1: 2000 0x109220: e (in /home/warren/mem-and-storage/HW2/heap)
+   n0: 2000 0x1092AF: main (in /home/warren/mem-and-storage/HW2/heap)
+  n0: 2000 0x1092B4: main (in /home/warren/mem-and-storage/HW2/heap)
+ n1: 16000 0x1091ED: d (in /home/warren/mem-and-storage/HW2/heap)
+  n1: 16000 0x109234: e (in /home/warren/mem-and-storage/HW2/heap)
+   n0: 16000 0x1092AF: main (in /home/warren/mem-and-storage/HW2/heap)
+ n0: 10000 0x109293: main (in /home/warren/mem-and-storage/HW2/heap)
+ n0: 1000 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=40
+#-----------
+time=133408
+mem_heap_B=133000
+mem_heap_extra_B=408
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=41
+#-----------
+time=137416
+mem_heap_B=137000
+mem_heap_extra_B=416
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=42
+#-----------
+time=145424
+mem_heap_B=145000
+mem_heap_extra_B=424
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=43
+#-----------
+time=147432
+mem_heap_B=147000
+mem_heap_extra_B=432
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=44
+#-----------
+time=151440
+mem_heap_B=151000
+mem_heap_extra_B=440
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=45
+#-----------
+time=155448
+mem_heap_B=155000
+mem_heap_extra_B=448
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=46
+#-----------
+time=157456
+mem_heap_B=157000
+mem_heap_extra_B=456
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=47
+#-----------
+time=161464
+mem_heap_B=161000
+mem_heap_extra_B=464
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=48
+#-----------
+time=177472
+mem_heap_B=177000
+mem_heap_extra_B=472
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=49
+#-----------
+time=179480
+mem_heap_B=179000
+mem_heap_extra_B=480
+mem_stacks_B=0
+heap_tree=detailed
+n6: 179000 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n7: 80000 0x10919A: a (in /home/warren/mem-and-storage/HW2/heap)
+  n5: 44000 0x1091B4: b (in /home/warren/mem-and-storage/HW2/heap)
+   n4: 16000 0x1091CE: c (in /home/warren/mem-and-storage/HW2/heap)
+    n1: 4000 0x1091F7: d (in /home/warren/mem-and-storage/HW2/heap)
+     n1: 4000 0x109234: e (in /home/warren/mem-and-storage/HW2/heap)
+      n0: 4000 0x1092AF: main (in /home/warren/mem-and-storage/HW2/heap)
+    n1: 4000 0x109201: d (in /home/warren/mem-and-storage/HW2/heap)
+     n1: 4000 0x109234: e (in /home/warren/mem-and-storage/HW2/heap)
+      n0: 4000 0x1092AF: main (in /home/warren/mem-and-storage/HW2/heap)
+    n1: 4000 0x10922F: e (in /home/warren/mem-and-storage/HW2/heap)
+     n0: 4000 0x1092AF: main (in /home/warren/mem-and-storage/HW2/heap)
+    n0: 4000 0x1092BE: main (in /home/warren/mem-and-storage/HW2/heap)
+   n4: 16000 0x1091D8: c (in /home/warren/mem-and-storage/HW2/heap)
+    n1: 4000 0x1091F7: d (in /home/warren/mem-and-storage/HW2/heap)
+     n1: 4000 0x109234: e (in /home/warren/mem-and-storage/HW2/heap)
+      n0: 4000 0x1092AF: main (in /home/warren/mem-and-storage/HW2/heap)
+    n1: 4000 0x109201: d (in /home/warren/mem-and-storage/HW2/heap)
+     n1: 4000 0x109234: e (in /home/warren/mem-and-storage/HW2/heap)
+      n0: 4000 0x1092AF: main (in /home/warren/mem-and-storage/HW2/heap)
+    n1: 4000 0x10922F: e (in /home/warren/mem-and-storage/HW2/heap)
+     n0: 4000 0x1092AF: main (in /home/warren/mem-and-storage/HW2/heap)
+    n0: 4000 0x1092BE: main (in /home/warren/mem-and-storage/HW2/heap)
+   n1: 4000 0x1091F2: d (in /home/warren/mem-and-storage/HW2/heap)
+    n1: 4000 0x109234: e (in /home/warren/mem-and-storage/HW2/heap)
+     n0: 4000 0x1092AF: main (in /home/warren/mem-and-storage/HW2/heap)
+   n1: 4000 0x109220: e (in /home/warren/mem-and-storage/HW2/heap)
+    n0: 4000 0x1092AF: main (in /home/warren/mem-and-storage/HW2/heap)
+   n0: 4000 0x1092B4: main (in /home/warren/mem-and-storage/HW2/heap)
+  n4: 16000 0x1091D3: c (in /home/warren/mem-and-storage/HW2/heap)
+   n1: 4000 0x1091F7: d (in /home/warren/mem-and-storage/HW2/heap)
+    n1: 4000 0x109234: e (in /home/warren/mem-and-storage/HW2/heap)
+     n0: 4000 0x1092AF: main (in /home/warren/mem-and-storage/HW2/heap)
+   n1: 4000 0x109201: d (in /home/warren/mem-and-storage/HW2/heap)
+    n1: 4000 0x109234: e (in /home/warren/mem-and-storage/HW2/heap)
+     n0: 4000 0x1092AF: main (in /home/warren/mem-and-storage/HW2/heap)
+   n1: 4000 0x10922F: e (in /home/warren/mem-and-storage/HW2/heap)
+    n0: 4000 0x1092AF: main (in /home/warren/mem-and-storage/HW2/heap)
+   n0: 4000 0x1092BE: main (in /home/warren/mem-and-storage/HW2/heap)
+  n1: 4000 0x1091FC: d (in /home/warren/mem-and-storage/HW2/heap)
+   n1: 4000 0x109234: e (in /home/warren/mem-and-storage/HW2/heap)
+    n0: 4000 0x1092AF: main (in /home/warren/mem-and-storage/HW2/heap)
+  n1: 4000 0x109206: d (in /home/warren/mem-and-storage/HW2/heap)
+   n1: 4000 0x109234: e (in /home/warren/mem-and-storage/HW2/heap)
+    n0: 4000 0x1092AF: main (in /home/warren/mem-and-storage/HW2/heap)
+  n1: 4000 0x109225: e (in /home/warren/mem-and-storage/HW2/heap)
+   n0: 4000 0x1092AF: main (in /home/warren/mem-and-storage/HW2/heap)
+  n1: 4000 0x10922A: e (in /home/warren/mem-and-storage/HW2/heap)
+   n0: 4000 0x1092AF: main (in /home/warren/mem-and-storage/HW2/heap)
+  n0: 4000 0x1092B9: main (in /home/warren/mem-and-storage/HW2/heap)
+ n4: 32000 0x1091C9: c (in /home/warren/mem-and-storage/HW2/heap)
+  n1: 8000 0x1091F7: d (in /home/warren/mem-and-storage/HW2/heap)
+   n1: 8000 0x109234: e (in /home/warren/mem-and-storage/HW2/heap)
+    n0: 8000 0x1092AF: main (in /home/warren/mem-and-storage/HW2/heap)
+  n1: 8000 0x109201: d (in /home/warren/mem-and-storage/HW2/heap)
+   n1: 8000 0x109234: e (in /home/warren/mem-and-storage/HW2/heap)
+    n0: 8000 0x1092AF: main (in /home/warren/mem-and-storage/HW2/heap)
+  n1: 8000 0x10922F: e (in /home/warren/mem-and-storage/HW2/heap)
+   n0: 8000 0x1092AF: main (in /home/warren/mem-and-storage/HW2/heap)
+  n0: 8000 0x1092BE: main (in /home/warren/mem-and-storage/HW2/heap)
+ n2: 32000 0x1091ED: d (in /home/warren/mem-and-storage/HW2/heap)
+  n1: 16000 0x109234: e (in /home/warren/mem-and-storage/HW2/heap)
+   n0: 16000 0x1092AF: main (in /home/warren/mem-and-storage/HW2/heap)
+  n0: 16000 0x1092C3: main (in /home/warren/mem-and-storage/HW2/heap)
+ n5: 24000 0x1091AF: b (in /home/warren/mem-and-storage/HW2/heap)
+  n4: 8000 0x1091CE: c (in /home/warren/mem-and-storage/HW2/heap)
+   n1: 2000 0x1091F7: d (in /home/warren/mem-and-storage/HW2/heap)
+    n1: 2000 0x109234: e (in /home/warren/mem-and-storage/HW2/heap)
+     n0: 2000 0x1092AF: main (in /home/warren/mem-and-storage/HW2/heap)
+   n1: 2000 0x109201: d (in /home/warren/mem-and-storage/HW2/heap)
+    n1: 2000 0x109234: e (in /home/warren/mem-and-storage/HW2/heap)
+     n0: 2000 0x1092AF: main (in /home/warren/mem-and-storage/HW2/heap)
+   n1: 2000 0x10922F: e (in /home/warren/mem-and-storage/HW2/heap)
+    n0: 2000 0x1092AF: main (in /home/warren/mem-and-storage/HW2/heap)
+   n0: 2000 0x1092BE: main (in /home/warren/mem-and-storage/HW2/heap)
+  n4: 8000 0x1091D8: c (in /home/warren/mem-and-storage/HW2/heap)
+   n1: 2000 0x1091F7: d (in /home/warren/mem-and-storage/HW2/heap)
+    n1: 2000 0x109234: e (in /home/warren/mem-and-storage/HW2/heap)
+     n0: 2000 0x1092AF: main (in /home/warren/mem-and-storage/HW2/heap)
+   n1: 2000 0x109201: d (in /home/warren/mem-and-storage/HW2/heap)
+    n1: 2000 0x109234: e (in /home/warren/mem-and-storage/HW2/heap)
+     n0: 2000 0x1092AF: main (in /home/warren/mem-and-storage/HW2/heap)
+   n1: 2000 0x10922F: e (in /home/warren/mem-and-storage/HW2/heap)
+    n0: 2000 0x1092AF: main (in /home/warren/mem-and-storage/HW2/heap)
+   n0: 2000 0x1092BE: main (in /home/warren/mem-and-storage/HW2/heap)
+  n2: 4000 0x1091F2: d (in /home/warren/mem-and-storage/HW2/heap)
+   n1: 2000 0x109234: e (in /home/warren/mem-and-storage/HW2/heap)
+    n0: 2000 0x1092AF: main (in /home/warren/mem-and-storage/HW2/heap)
+   n0: 2000 0x1092C3: main (in /home/warren/mem-and-storage/HW2/heap)
+  n1: 2000 0x109220: e (in /home/warren/mem-and-storage/HW2/heap)
+   n0: 2000 0x1092AF: main (in /home/warren/mem-and-storage/HW2/heap)
+  n0: 2000 0x1092B4: main (in /home/warren/mem-and-storage/HW2/heap)
+ n0: 10000 0x109293: main (in /home/warren/mem-and-storage/HW2/heap)
+ n0: 1000 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=50
+#-----------
+time=183488
+mem_heap_B=183000
+mem_heap_extra_B=488
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=51
+#-----------
+time=191496
+mem_heap_B=191000
+mem_heap_extra_B=496
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=52
+#-----------
+time=193504
+mem_heap_B=193000
+mem_heap_extra_B=504
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=53
+#-----------
+time=197512
+mem_heap_B=197000
+mem_heap_extra_B=512
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=54
+#-----------
+time=201520
+mem_heap_B=201000
+mem_heap_extra_B=520
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=55
+#-----------
+time=203528
+mem_heap_B=203000
+mem_heap_extra_B=528
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=56
+#-----------
+time=207536
+mem_heap_B=207000
+mem_heap_extra_B=536
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=57
+#-----------
+time=211544
+mem_heap_B=211000
+mem_heap_extra_B=544
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=58
+#-----------
+time=219552
+mem_heap_B=219000
+mem_heap_extra_B=552
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=59
+#-----------
+time=221560
+mem_heap_B=221000
+mem_heap_extra_B=560
+mem_stacks_B=0
+heap_tree=detailed
+n6: 221000 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n7: 100000 0x10919A: a (in /home/warren/mem-and-storage/HW2/heap)
+  n5: 56000 0x1091B4: b (in /home/warren/mem-and-storage/HW2/heap)
+   n4: 20000 0x1091CE: c (in /home/warren/mem-and-storage/HW2/heap)
+    n2: 8000 0x1091F7: d (in /home/warren/mem-and-storage/HW2/heap)
+     n1: 4000 0x109234: e (in /home/warren/mem-and-storage/HW2/heap)
+      n0: 4000 0x1092AF: main (in /home/warren/mem-and-storage/HW2/heap)
+     n0: 4000 0x1092C3: main (in /home/warren/mem-and-storage/HW2/heap)
+    n1: 4000 0x109201: d (in /home/warren/mem-and-storage/HW2/heap)
+     n1: 4000 0x109234: e (in /home/warren/mem-and-storage/HW2/heap)
+      n0: 4000 0x1092AF: main (in /home/warren/mem-and-storage/HW2/heap)
+    n1: 4000 0x10922F: e (in /home/warren/mem-and-storage/HW2/heap)
+     n0: 4000 0x1092AF: main (in /home/warren/mem-and-storage/HW2/heap)
+    n0: 4000 0x1092BE: main (in /home/warren/mem-and-storage/HW2/heap)
+   n4: 20000 0x1091D8: c (in /home/warren/mem-and-storage/HW2/heap)
+    n2: 8000 0x1091F7: d (in /home/warren/mem-and-storage/HW2/heap)
+     n1: 4000 0x109234: e (in /home/warren/mem-and-storage/HW2/heap)
+      n0: 4000 0x1092AF: main (in /home/warren/mem-and-storage/HW2/heap)
+     n0: 4000 0x1092C3: main (in /home/warren/mem-and-storage/HW2/heap)
+    n1: 4000 0x109201: d (in /home/warren/mem-and-storage/HW2/heap)
+     n1: 4000 0x109234: e (in /home/warren/mem-and-storage/HW2/heap)
+      n0: 4000 0x1092AF: main (in /home/warren/mem-and-storage/HW2/heap)
+    n1: 4000 0x10922F: e (in /home/warren/mem-and-storage/HW2/heap)
+     n0: 4000 0x1092AF: main (in /home/warren/mem-and-storage/HW2/heap)
+    n0: 4000 0x1092BE: main (in /home/warren/mem-and-storage/HW2/heap)
+   n2: 8000 0x1091F2: d (in /home/warren/mem-and-storage/HW2/heap)
+    n1: 4000 0x109234: e (in /home/warren/mem-and-storage/HW2/heap)
+     n0: 4000 0x1092AF: main (in /home/warren/mem-and-storage/HW2/heap)
+    n0: 4000 0x1092C3: main (in /home/warren/mem-and-storage/HW2/heap)
+   n1: 4000 0x109220: e (in /home/warren/mem-and-storage/HW2/heap)
+    n0: 4000 0x1092AF: main (in /home/warren/mem-and-storage/HW2/heap)
+   n0: 4000 0x1092B4: main (in /home/warren/mem-and-storage/HW2/heap)
+  n4: 20000 0x1091D3: c (in /home/warren/mem-and-storage/HW2/heap)
+   n2: 8000 0x1091F7: d (in /home/warren/mem-and-storage/HW2/heap)
+    n1: 4000 0x109234: e (in /home/warren/mem-and-storage/HW2/heap)
+     n0: 4000 0x1092AF: main (in /home/warren/mem-and-storage/HW2/heap)
+    n0: 4000 0x1092C3: main (in /home/warren/mem-and-storage/HW2/heap)
+   n1: 4000 0x109201: d (in /home/warren/mem-and-storage/HW2/heap)
+    n1: 4000 0x109234: e (in /home/warren/mem-and-storage/HW2/heap)
+     n0: 4000 0x1092AF: main (in /home/warren/mem-and-storage/HW2/heap)
+   n1: 4000 0x10922F: e (in /home/warren/mem-and-storage/HW2/heap)
+    n0: 4000 0x1092AF: main (in /home/warren/mem-and-storage/HW2/heap)
+   n0: 4000 0x1092BE: main (in /home/warren/mem-and-storage/HW2/heap)
+  n2: 8000 0x1091FC: d (in /home/warren/mem-and-storage/HW2/heap)
+   n1: 4000 0x109234: e (in /home/warren/mem-and-storage/HW2/heap)
+    n0: 4000 0x1092AF: main (in /home/warren/mem-and-storage/HW2/heap)
+   n0: 4000 0x1092C3: main (in /home/warren/mem-and-storage/HW2/heap)
+  n1: 4000 0x109206: d (in /home/warren/mem-and-storage/HW2/heap)
+   n1: 4000 0x109234: e (in /home/warren/mem-and-storage/HW2/heap)
+    n0: 4000 0x1092AF: main (in /home/warren/mem-and-storage/HW2/heap)
+  n1: 4000 0x109225: e (in /home/warren/mem-and-storage/HW2/heap)
+   n0: 4000 0x1092AF: main (in /home/warren/mem-and-storage/HW2/heap)
+  n1: 4000 0x10922A: e (in /home/warren/mem-and-storage/HW2/heap)
+   n0: 4000 0x1092AF: main (in /home/warren/mem-and-storage/HW2/heap)
+  n0: 4000 0x1092B9: main (in /home/warren/mem-and-storage/HW2/heap)
+ n4: 48000 0x1091C9: c (in /home/warren/mem-and-storage/HW2/heap)
+  n2: 16000 0x1091F7: d (in /home/warren/mem-and-storage/HW2/heap)
+   n1: 8000 0x109234: e (in /home/warren/mem-and-storage/HW2/heap)
+    n0: 8000 0x1092AF: main (in /home/warren/mem-and-storage/HW2/heap)
+   n0: 8000 0x1092C3: main (in /home/warren/mem-and-storage/HW2/heap)
+  n2: 16000 0x109201: d (in /home/warren/mem-and-storage/HW2/heap)
+   n1: 8000 0x109234: e (in /home/warren/mem-and-storage/HW2/heap)
+    n0: 8000 0x1092AF: main (in /home/warren/mem-and-storage/HW2/heap)
+   n0: 8000 0x1092C3: main (in /home/warren/mem-and-storage/HW2/heap)
+  n1: 8000 0x10922F: e (in /home/warren/mem-and-storage/HW2/heap)
+   n0: 8000 0x1092AF: main (in /home/warren/mem-and-storage/HW2/heap)
+  n0: 8000 0x1092BE: main (in /home/warren/mem-and-storage/HW2/heap)
+ n2: 32000 0x1091ED: d (in /home/warren/mem-and-storage/HW2/heap)
+  n1: 16000 0x109234: e (in /home/warren/mem-and-storage/HW2/heap)
+   n0: 16000 0x1092AF: main (in /home/warren/mem-and-storage/HW2/heap)
+  n0: 16000 0x1092C3: main (in /home/warren/mem-and-storage/HW2/heap)
+ n4: 30000 0x1091AF: b (in /home/warren/mem-and-storage/HW2/heap)
+  n3: 12000 0x1091CE: c (in /home/warren/mem-and-storage/HW2/heap)
+   n0: 4000 in 2 places, all below massif's threshold (1.00%)
+   n1: 4000 0x1091F7: d (in /home/warren/mem-and-storage/HW2/heap)
+    n0: 4000 in 2 places, all below massif's threshold (1.00%)
+   n1: 4000 0x109201: d (in /home/warren/mem-and-storage/HW2/heap)
+    n0: 4000 in 2 places, all below massif's threshold (1.00%)
+  n2: 10000 0x1091D8: c (in /home/warren/mem-and-storage/HW2/heap)
+   n0: 6000 in 3 places, all below massif's threshold (1.00%)
+   n1: 4000 0x1091F7: d (in /home/warren/mem-and-storage/HW2/heap)
+    n0: 4000 in 2 places, all below massif's threshold (1.00%)
+  n0: 4000 in 2 places, all below massif's threshold (1.00%)
+  n1: 4000 0x1091F2: d (in /home/warren/mem-and-storage/HW2/heap)
+   n0: 4000 in 2 places, all below massif's threshold (1.00%)
+ n0: 10000 0x109293: main (in /home/warren/mem-and-storage/HW2/heap)
+ n0: 1000 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=60
+#-----------
+time=225568
+mem_heap_B=225000
+mem_heap_extra_B=568
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=61
+#-----------
+time=229576
+mem_heap_B=229000
+mem_heap_extra_B=576
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=62
+#-----------
+time=231584
+mem_heap_B=231000
+mem_heap_extra_B=584
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=63
+#-----------
+time=235592
+mem_heap_B=235000
+mem_heap_extra_B=592
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=64
+#-----------
+time=239600
+mem_heap_B=239000
+mem_heap_extra_B=600
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=65
+#-----------
+time=239600
+mem_heap_B=239000
+mem_heap_extra_B=600
+mem_stacks_B=0
+heap_tree=peak
+n6: 239000 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n7: 116000 0x10919A: a (in /home/warren/mem-and-storage/HW2/heap)
+  n5: 64000 0x1091B4: b (in /home/warren/mem-and-storage/HW2/heap)
+   n4: 24000 0x1091CE: c (in /home/warren/mem-and-storage/HW2/heap)
+    n2: 8000 0x1091F7: d (in /home/warren/mem-and-storage/HW2/heap)
+     n1: 4000 0x109234: e (in /home/warren/mem-and-storage/HW2/heap)
+      n0: 4000 0x1092AF: main (in /home/warren/mem-and-storage/HW2/heap)
+     n0: 4000 0x1092C3: main (in /home/warren/mem-and-storage/HW2/heap)
+    n2: 8000 0x109201: d (in /home/warren/mem-and-storage/HW2/heap)
+     n1: 4000 0x109234: e (in /home/warren/mem-and-storage/HW2/heap)
+      n0: 4000 0x1092AF: main (in /home/warren/mem-and-storage/HW2/heap)
+     n0: 4000 0x1092C3: main (in /home/warren/mem-and-storage/HW2/heap)
+    n1: 4000 0x10922F: e (in /home/warren/mem-and-storage/HW2/heap)
+     n0: 4000 0x1092AF: main (in /home/warren/mem-and-storage/HW2/heap)
+    n0: 4000 0x1092BE: main (in /home/warren/mem-and-storage/HW2/heap)
+   n4: 24000 0x1091D8: c (in /home/warren/mem-and-storage/HW2/heap)
+    n2: 8000 0x1091F7: d (in /home/warren/mem-and-storage/HW2/heap)
+     n1: 4000 0x109234: e (in /home/warren/mem-and-storage/HW2/heap)
+      n0: 4000 0x1092AF: main (in /home/warren/mem-and-storage/HW2/heap)
+     n0: 4000 0x1092C3: main (in /home/warren/mem-and-storage/HW2/heap)
+    n2: 8000 0x109201: d (in /home/warren/mem-and-storage/HW2/heap)
+     n1: 4000 0x109234: e (in /home/warren/mem-and-storage/HW2/heap)
+      n0: 4000 0x1092AF: main (in /home/warren/mem-and-storage/HW2/heap)
+     n0: 4000 0x1092C3: main (in /home/warren/mem-and-storage/HW2/heap)
+    n1: 4000 0x10922F: e (in /home/warren/mem-and-storage/HW2/heap)
+     n0: 4000 0x1092AF: main (in /home/warren/mem-and-storage/HW2/heap)
+    n0: 4000 0x1092BE: main (in /home/warren/mem-and-storage/HW2/heap)
+   n2: 8000 0x1091F2: d (in /home/warren/mem-and-storage/HW2/heap)
+    n1: 4000 0x109234: e (in /home/warren/mem-and-storage/HW2/heap)
+     n0: 4000 0x1092AF: main (in /home/warren/mem-and-storage/HW2/heap)
+    n0: 4000 0x1092C3: main (in /home/warren/mem-and-storage/HW2/heap)
+   n1: 4000 0x109220: e (in /home/warren/mem-and-storage/HW2/heap)
+    n0: 4000 0x1092AF: main (in /home/warren/mem-and-storage/HW2/heap)
+   n0: 4000 0x1092B4: main (in /home/warren/mem-and-storage/HW2/heap)
+  n4: 24000 0x1091D3: c (in /home/warren/mem-and-storage/HW2/heap)
+   n2: 8000 0x1091F7: d (in /home/warren/mem-and-storage/HW2/heap)
+    n1: 4000 0x109234: e (in /home/warren/mem-and-storage/HW2/heap)
+     n0: 4000 0x1092AF: main (in /home/warren/mem-and-storage/HW2/heap)
+    n0: 4000 0x1092C3: main (in /home/warren/mem-and-storage/HW2/heap)
+   n2: 8000 0x109201: d (in /home/warren/mem-and-storage/HW2/heap)
+    n1: 4000 0x109234: e (in /home/warren/mem-and-storage/HW2/heap)
+     n0: 4000 0x1092AF: main (in /home/warren/mem-and-storage/HW2/heap)
+    n0: 4000 0x1092C3: main (in /home/warren/mem-and-storage/HW2/heap)
+   n1: 4000 0x10922F: e (in /home/warren/mem-and-storage/HW2/heap)
+    n0: 4000 0x1092AF: main (in /home/warren/mem-and-storage/HW2/heap)
+   n0: 4000 0x1092BE: main (in /home/warren/mem-and-storage/HW2/heap)
+  n2: 8000 0x1091FC: d (in /home/warren/mem-and-storage/HW2/heap)
+   n1: 4000 0x109234: e (in /home/warren/mem-and-storage/HW2/heap)
+    n0: 4000 0x1092AF: main (in /home/warren/mem-and-storage/HW2/heap)
+   n0: 4000 0x1092C3: main (in /home/warren/mem-and-storage/HW2/heap)
+  n2: 8000 0x109206: d (in /home/warren/mem-and-storage/HW2/heap)
+   n1: 4000 0x109234: e (in /home/warren/mem-and-storage/HW2/heap)
+    n0: 4000 0x1092AF: main (in /home/warren/mem-and-storage/HW2/heap)
+   n0: 4000 0x1092C3: main (in /home/warren/mem-and-storage/HW2/heap)
+  n1: 4000 0x109225: e (in /home/warren/mem-and-storage/HW2/heap)
+   n0: 4000 0x1092AF: main (in /home/warren/mem-and-storage/HW2/heap)
+  n1: 4000 0x10922A: e (in /home/warren/mem-and-storage/HW2/heap)
+   n0: 4000 0x1092AF: main (in /home/warren/mem-and-storage/HW2/heap)
+  n0: 4000 0x1092B9: main (in /home/warren/mem-and-storage/HW2/heap)
+ n4: 48000 0x1091C9: c (in /home/warren/mem-and-storage/HW2/heap)
+  n2: 16000 0x1091F7: d (in /home/warren/mem-and-storage/HW2/heap)
+   n1: 8000 0x109234: e (in /home/warren/mem-and-storage/HW2/heap)
+    n0: 8000 0x1092AF: main (in /home/warren/mem-and-storage/HW2/heap)
+   n0: 8000 0x1092C3: main (in /home/warren/mem-and-storage/HW2/heap)
+  n2: 16000 0x109201: d (in /home/warren/mem-and-storage/HW2/heap)
+   n1: 8000 0x109234: e (in /home/warren/mem-and-storage/HW2/heap)
+    n0: 8000 0x1092AF: main (in /home/warren/mem-and-storage/HW2/heap)
+   n0: 8000 0x1092C3: main (in /home/warren/mem-and-storage/HW2/heap)
+  n1: 8000 0x10922F: e (in /home/warren/mem-and-storage/HW2/heap)
+   n0: 8000 0x1092AF: main (in /home/warren/mem-and-storage/HW2/heap)
+  n0: 8000 0x1092BE: main (in /home/warren/mem-and-storage/HW2/heap)
+ n4: 32000 0x1091AF: b (in /home/warren/mem-and-storage/HW2/heap)
+  n3: 12000 0x1091CE: c (in /home/warren/mem-and-storage/HW2/heap)
+   n0: 4000 in 2 places, all below massif's threshold (1.00%)
+   n1: 4000 0x1091F7: d (in /home/warren/mem-and-storage/HW2/heap)
+    n0: 4000 in 2 places, all below massif's threshold (1.00%)
+   n1: 4000 0x109201: d (in /home/warren/mem-and-storage/HW2/heap)
+    n0: 4000 in 2 places, all below massif's threshold (1.00%)
+  n3: 12000 0x1091D8: c (in /home/warren/mem-and-storage/HW2/heap)
+   n0: 4000 in 2 places, all below massif's threshold (1.00%)
+   n1: 4000 0x1091F7: d (in /home/warren/mem-and-storage/HW2/heap)
+    n0: 4000 in 2 places, all below massif's threshold (1.00%)
+   n1: 4000 0x109201: d (in /home/warren/mem-and-storage/HW2/heap)
+    n0: 4000 in 2 places, all below massif's threshold (1.00%)
+  n0: 4000 in 2 places, all below massif's threshold (1.00%)
+  n1: 4000 0x1091F2: d (in /home/warren/mem-and-storage/HW2/heap)
+   n0: 4000 in 2 places, all below massif's threshold (1.00%)
+ n2: 32000 0x1091ED: d (in /home/warren/mem-and-storage/HW2/heap)
+  n1: 16000 0x109234: e (in /home/warren/mem-and-storage/HW2/heap)
+   n0: 16000 0x1092AF: main (in /home/warren/mem-and-storage/HW2/heap)
+  n0: 16000 0x1092C3: main (in /home/warren/mem-and-storage/HW2/heap)
+ n0: 10000 0x109293: main (in /home/warren/mem-and-storage/HW2/heap)
+ n0: 1000 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=66
+#-----------
+time=240616
+mem_heap_B=238000
+mem_heap_extra_B=584
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=67
+#-----------
+time=241632
+mem_heap_B=237000
+mem_heap_extra_B=568
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=68
+#-----------
+time=242648
+mem_heap_B=236000
+mem_heap_extra_B=552
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=69
+#-----------
+time=243664
+mem_heap_B=235000
+mem_heap_extra_B=536
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=70
+#-----------
+time=244680
+mem_heap_B=234000
+mem_heap_extra_B=520
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=71
+#-----------
+time=245696
+mem_heap_B=233000
+mem_heap_extra_B=504
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=72
+#-----------
+time=246712
+mem_heap_B=232000
+mem_heap_extra_B=488
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=73
+#-----------
+time=247728
+mem_heap_B=231000
+mem_heap_extra_B=472
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=74
+#-----------
+time=248744
+mem_heap_B=230000
+mem_heap_extra_B=456
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=75
+#-----------
+time=249760
+mem_heap_B=229000
+mem_heap_extra_B=440
+mem_stacks_B=0
+heap_tree=detailed
+n5: 229000 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n7: 116000 0x10919A: a (in /home/warren/mem-and-storage/HW2/heap)
+  n5: 64000 0x1091B4: b (in /home/warren/mem-and-storage/HW2/heap)
+   n4: 24000 0x1091CE: c (in /home/warren/mem-and-storage/HW2/heap)
+    n2: 8000 0x1091F7: d (in /home/warren/mem-and-storage/HW2/heap)
+     n1: 4000 0x109234: e (in /home/warren/mem-and-storage/HW2/heap)
+      n0: 4000 0x1092AF: main (in /home/warren/mem-and-storage/HW2/heap)
+     n0: 4000 0x1092C3: main (in /home/warren/mem-and-storage/HW2/heap)
+    n2: 8000 0x109201: d (in /home/warren/mem-and-storage/HW2/heap)
+     n1: 4000 0x109234: e (in /home/warren/mem-and-storage/HW2/heap)
+      n0: 4000 0x1092AF: main (in /home/warren/mem-and-storage/HW2/heap)
+     n0: 4000 0x1092C3: main (in /home/warren/mem-and-storage/HW2/heap)
+    n1: 4000 0x10922F: e (in /home/warren/mem-and-storage/HW2/heap)
+     n0: 4000 0x1092AF: main (in /home/warren/mem-and-storage/HW2/heap)
+    n0: 4000 0x1092BE: main (in /home/warren/mem-and-storage/HW2/heap)
+   n4: 24000 0x1091D8: c (in /home/warren/mem-and-storage/HW2/heap)
+    n2: 8000 0x1091F7: d (in /home/warren/mem-and-storage/HW2/heap)
+     n1: 4000 0x109234: e (in /home/warren/mem-and-storage/HW2/heap)
+      n0: 4000 0x1092AF: main (in /home/warren/mem-and-storage/HW2/heap)
+     n0: 4000 0x1092C3: main (in /home/warren/mem-and-storage/HW2/heap)
+    n2: 8000 0x109201: d (in /home/warren/mem-and-storage/HW2/heap)
+     n1: 4000 0x109234: e (in /home/warren/mem-and-storage/HW2/heap)
+      n0: 4000 0x1092AF: main (in /home/warren/mem-and-storage/HW2/heap)
+     n0: 4000 0x1092C3: main (in /home/warren/mem-and-storage/HW2/heap)
+    n1: 4000 0x10922F: e (in /home/warren/mem-and-storage/HW2/heap)
+     n0: 4000 0x1092AF: main (in /home/warren/mem-and-storage/HW2/heap)
+    n0: 4000 0x1092BE: main (in /home/warren/mem-and-storage/HW2/heap)
+   n2: 8000 0x1091F2: d (in /home/warren/mem-and-storage/HW2/heap)
+    n1: 4000 0x109234: e (in /home/warren/mem-and-storage/HW2/heap)
+     n0: 4000 0x1092AF: main (in /home/warren/mem-and-storage/HW2/heap)
+    n0: 4000 0x1092C3: main (in /home/warren/mem-and-storage/HW2/heap)
+   n1: 4000 0x109220: e (in /home/warren/mem-and-storage/HW2/heap)
+    n0: 4000 0x1092AF: main (in /home/warren/mem-and-storage/HW2/heap)
+   n0: 4000 0x1092B4: main (in /home/warren/mem-and-storage/HW2/heap)
+  n4: 24000 0x1091D3: c (in /home/warren/mem-and-storage/HW2/heap)
+   n2: 8000 0x1091F7: d (in /home/warren/mem-and-storage/HW2/heap)
+    n1: 4000 0x109234: e (in /home/warren/mem-and-storage/HW2/heap)
+     n0: 4000 0x1092AF: main (in /home/warren/mem-and-storage/HW2/heap)
+    n0: 4000 0x1092C3: main (in /home/warren/mem-and-storage/HW2/heap)
+   n2: 8000 0x109201: d (in /home/warren/mem-and-storage/HW2/heap)
+    n1: 4000 0x109234: e (in /home/warren/mem-and-storage/HW2/heap)
+     n0: 4000 0x1092AF: main (in /home/warren/mem-and-storage/HW2/heap)
+    n0: 4000 0x1092C3: main (in /home/warren/mem-and-storage/HW2/heap)
+   n1: 4000 0x10922F: e (in /home/warren/mem-and-storage/HW2/heap)
+    n0: 4000 0x1092AF: main (in /home/warren/mem-and-storage/HW2/heap)
+   n0: 4000 0x1092BE: main (in /home/warren/mem-and-storage/HW2/heap)
+  n2: 8000 0x1091FC: d (in /home/warren/mem-and-storage/HW2/heap)
+   n1: 4000 0x109234: e (in /home/warren/mem-and-storage/HW2/heap)
+    n0: 4000 0x1092AF: main (in /home/warren/mem-and-storage/HW2/heap)
+   n0: 4000 0x1092C3: main (in /home/warren/mem-and-storage/HW2/heap)
+  n2: 8000 0x109206: d (in /home/warren/mem-and-storage/HW2/heap)
+   n1: 4000 0x109234: e (in /home/warren/mem-and-storage/HW2/heap)
+    n0: 4000 0x1092AF: main (in /home/warren/mem-and-storage/HW2/heap)
+   n0: 4000 0x1092C3: main (in /home/warren/mem-and-storage/HW2/heap)
+  n1: 4000 0x109225: e (in /home/warren/mem-and-storage/HW2/heap)
+   n0: 4000 0x1092AF: main (in /home/warren/mem-and-storage/HW2/heap)
+  n1: 4000 0x10922A: e (in /home/warren/mem-and-storage/HW2/heap)
+   n0: 4000 0x1092AF: main (in /home/warren/mem-and-storage/HW2/heap)
+  n0: 4000 0x1092B9: main (in /home/warren/mem-and-storage/HW2/heap)
+ n4: 48000 0x1091C9: c (in /home/warren/mem-and-storage/HW2/heap)
+  n2: 16000 0x1091F7: d (in /home/warren/mem-and-storage/HW2/heap)
+   n1: 8000 0x109234: e (in /home/warren/mem-and-storage/HW2/heap)
+    n0: 8000 0x1092AF: main (in /home/warren/mem-and-storage/HW2/heap)
+   n0: 8000 0x1092C3: main (in /home/warren/mem-and-storage/HW2/heap)
+  n2: 16000 0x109201: d (in /home/warren/mem-and-storage/HW2/heap)
+   n1: 8000 0x109234: e (in /home/warren/mem-and-storage/HW2/heap)
+    n0: 8000 0x1092AF: main (in /home/warren/mem-and-storage/HW2/heap)
+   n0: 8000 0x1092C3: main (in /home/warren/mem-and-storage/HW2/heap)
+  n1: 8000 0x10922F: e (in /home/warren/mem-and-storage/HW2/heap)
+   n0: 8000 0x1092AF: main (in /home/warren/mem-and-storage/HW2/heap)
+  n0: 8000 0x1092BE: main (in /home/warren/mem-and-storage/HW2/heap)
+ n4: 32000 0x1091AF: b (in /home/warren/mem-and-storage/HW2/heap)
+  n3: 12000 0x1091CE: c (in /home/warren/mem-and-storage/HW2/heap)
+   n0: 4000 in 2 places, all below massif's threshold (1.00%)
+   n1: 4000 0x1091F7: d (in /home/warren/mem-and-storage/HW2/heap)
+    n0: 4000 in 2 places, all below massif's threshold (1.00%)
+   n1: 4000 0x109201: d (in /home/warren/mem-and-storage/HW2/heap)
+    n0: 4000 in 2 places, all below massif's threshold (1.00%)
+  n3: 12000 0x1091D8: c (in /home/warren/mem-and-storage/HW2/heap)
+   n0: 4000 in 2 places, all below massif's threshold (1.00%)
+   n1: 4000 0x1091F7: d (in /home/warren/mem-and-storage/HW2/heap)
+    n0: 4000 in 2 places, all below massif's threshold (1.00%)
+   n1: 4000 0x109201: d (in /home/warren/mem-and-storage/HW2/heap)
+    n0: 4000 in 2 places, all below massif's threshold (1.00%)
+  n0: 4000 in 2 places, all below massif's threshold (1.00%)
+  n1: 4000 0x1091F2: d (in /home/warren/mem-and-storage/HW2/heap)
+   n0: 4000 in 2 places, all below massif's threshold (1.00%)
+ n2: 32000 0x1091ED: d (in /home/warren/mem-and-storage/HW2/heap)
+  n1: 16000 0x109234: e (in /home/warren/mem-and-storage/HW2/heap)
+   n0: 16000 0x1092AF: main (in /home/warren/mem-and-storage/HW2/heap)
+  n0: 16000 0x1092C3: main (in /home/warren/mem-and-storage/HW2/heap)
+ n0: 1000 in 2 places, all below massif's threshold (1.00%)
