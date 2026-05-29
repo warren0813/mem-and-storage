@@ -1,1 +1,47 @@
+# ── HW1 ────────────────────────────────────────────────
+# Submission archive (already submitted)
+HW1/*.zip
+# MS Office source files (not source code)
+HW1/*.docx
+HW1/*.pptx
+
+# ── HW2 ────────────────────────────────────────────────
+# Downloaded/installed packages
 HW2/packages/
+# Valgrind raw output files
+HW2/cachegrind.out.*
+HW2/callgrind.out.*
+HW2/massif.out.*
+# Compiled binaries (downloaded, not built here)
+HW2/scripts/memleak
+HW2/scripts/good
+HW2/scripts/bad
+HW2/scripts/heap
+
+# ── HW3 ────────────────────────────────────────────────
+# FlexGen offload cache (hundreds of binary tensor shards, ~GB)
+HW3/flexgen_offload/
+# Cloned FlexLLMGen source (tracked upstream, not ours)
+HW3/FlexLLMGen/
+# LaTeX build artifacts
+HW3/report.aux
+HW3/report.log
+HW3/report.out
+# Intermediate FlexGen logs emitted to repo root during runs
+HW3/fo-*.log
+# Submission staging directory
+HW3/HW3_*/
+# Submission zip
+HW3/*.zip
+
+# ── General ────────────────────────────────────────────
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+# Editor / OS noise
+.DS_Store
+*.swp
+*.swo
+Thumbs.db

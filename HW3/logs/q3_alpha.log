@@ -1,0 +1,29 @@
+/home/warren/mem-and-storage/HW3/FlexLLMGen/flexllmgen/pytorch_backend.py:847: UserWarning: Using a non-tuple sequence for multidimensional indexing is deprecated and will be changed in pytorch 2.9; use x[tuple(seq)] instead of x[seq]. In pytorch 2.9 this will be interpreted as tensor index, x[torch.tensor(seq)], which will result either in an error or a different result (Triggered internally at /pytorch/torch/csrc/autograd/python_variable_indexing.cpp:347.)
+  src = src.data[src_indices] if src_indices else src.data
+/home/warren/mem-and-storage/HW3/FlexLLMGen/flexllmgen/pytorch_backend.py:848: UserWarning: Using a non-tuple sequence for multidimensional indexing is deprecated and will be changed in pytorch 2.9; use x[tuple(seq)] instead of x[seq]. In pytorch 2.9 this will be interpreted as tensor index, x[torch.tensor(seq)], which will result either in an error or a different result (Triggered internally at /pytorch/torch/csrc/autograd/python_variable_indexing.cpp:347.)
+  dst = dst.data[dst_indices] if dst_indices else dst.data
+/home/warren/mem-and-storage/HW3/FlexLLMGen/flexllmgen/compression.py:199: UserWarning: Using a non-tuple sequence for multidimensional indexing is deprecated and will be changed in pytorch 2.9; use x[tuple(seq)] instead of x[seq]. In pytorch 2.9 this will be interpreted as tensor index, x[torch.tensor(seq)], which will result either in an error or a different result (Triggered internally at /pytorch/torch/csrc/autograd/python_variable_indexing.cpp:347.)
+  data = data.view(flatten_shape)[indices].contiguous()
+/home/warren/myenv/lib/python3.12/site-packages/torch/__init__.py:1172: FutureWarning: `torch.distributed.reduce_op` is deprecated, please use `torch.distributed.ReduceOp` instead
+  return isinstance(obj, torch.Tensor)
+<run_flexllmgen>: args.model: facebook/opt-1.3b
+model size: 2.443 GB, cache size: 0.105 GB, hidden size (prefill): 0.002 GB
+init weight...
+warmup - generate
+benchmark - generate
+Outputs:
+----------------------------------------------------------------------
+0: Paris is the capital city of France. It is the largest city in France and the second largest in Europe.
+----------------------------------------------------------------------
+3: Paris is the capital city of France. It is the largest city in France and the second largest in Europe.
+----------------------------------------------------------------------
+
+TorchDevice: cuda:0
+  cur_mem: 0.7772 GB,  peak_mem: 1.1251 GB
+TorchDevice: cpu
+  cur_mem: 0.0000 GB,  peak_mem: 0.0000 GB
+model size: 2.443 GB	cache size: 0.105 GB	hidden size (p): 0.002 GB
+peak gpu mem: 1.125 GB	projected: False
+prefill latency: 0.040 s	prefill throughput: 12771.918 token/s
+decode latency: 0.484 s	decode throughput: 124.024 token/s
+total latency: 0.524 s	total throughput: 122.169 token/s

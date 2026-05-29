@@ -1,0 +1,28 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+/home/warren/mem-and-storage/HW3/FlexLLMGen/flexllmgen/pytorch_backend.py:875: UserWarning: Using a non-tuple sequence for multidimensional indexing is deprecated and will be changed in pytorch 2.9; use x[tuple(seq)] instead of x[seq]. In pytorch 2.9 this will be interpreted as tensor index, x[torch.tensor(seq)], which will result either in an error or a different result (Triggered internally at /pytorch/torch/csrc/autograd/python_variable_indexing.cpp:347.)
+  return data[indices] if indices else data
+/home/warren/mem-and-storage/HW3/FlexLLMGen/flexllmgen/compression.py:199: UserWarning: Using a non-tuple sequence for multidimensional indexing is deprecated and will be changed in pytorch 2.9; use x[tuple(seq)] instead of x[seq]. In pytorch 2.9 this will be interpreted as tensor index, x[torch.tensor(seq)], which will result either in an error or a different result (Triggered internally at /pytorch/torch/csrc/autograd/python_variable_indexing.cpp:347.)
+  data = data.view(flatten_shape)[indices].contiguous()
+/home/warren/myenv/lib/python3.12/site-packages/torch/__init__.py:1172: FutureWarning: `torch.distributed.reduce_op` is deprecated, please use `torch.distributed.ReduceOp` instead
+  return isinstance(obj, torch.Tensor)
+<run_flexllmgen>: args.model: facebook/opt-1.3b
+model size: 2.443 GB, cache size: 0.105 GB, hidden size (prefill): 0.002 GB
+init weight...
+warmup - generate
+benchmark - generate
+Outputs:
+----------------------------------------------------------------------
+0: Paris is the capital city of France. It is the largest city in France and the second largest in Europe.
+----------------------------------------------------------------------
+3: Paris is the capital city of France. It is the largest city in France and the second largest in Europe.
+----------------------------------------------------------------------
+
+TorchDevice: cuda:0
+  cur_mem: 0.0313 GB,  peak_mem: 0.4906 GB
+TorchDevice: cpu
+  cur_mem: 0.0000 GB,  peak_mem: 0.0000 GB
+model size: 2.443 GB	cache size: 0.105 GB	hidden size (p): 0.002 GB
+peak gpu mem: 0.491 GB	projected: False
+prefill latency: 0.197 s	prefill throughput: 2598.610 token/s
+decode latency: 3.075 s	decode throughput: 19.514 token/s
+total latency: 3.272 s	total throughput: 19.562 token/s

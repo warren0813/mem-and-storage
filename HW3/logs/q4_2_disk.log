@@ -1,0 +1,39 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+
+  0%|          | 0/20 [00:00<?, ?it/s]
+  5%|▌         | 1/20 [00:00<00:07,  2.48it/s]
+ 85%|████████▌ | 17/20 [00:00<00:00, 43.44it/s]
+100%|██████████| 20/20 [00:00<00:00, 38.47it/s]
+/home/warren/myenv/lib/python3.12/site-packages/torch/__init__.py:1172: FutureWarning: `torch.distributed.reduce_op` is deprecated, please use `torch.distributed.ReduceOp` instead
+  return isinstance(obj, torch.Tensor)
+<run_flexllmgen>: args.model: facebook/opt-1.3b
+model size: 2.443 GB, cache size: 0.105 GB, hidden size (prefill): 0.002 GB
+init weight...
+warmup - generate
+benchmark - generate
+#layers: 50
+#batches prefill:  50
+#batches decoding: 750
+load_weight            (per-layer): 0.005538 s
+load_cache_prefill     (per-batch): 0.000006 s
+store_cache_prefill    (per-batch): 0.000030 s
+compute_layer_prefill  (per-batch): 0.000432 s
+load_cache_decoding    (per-batch): 0.000022 s
+store_cache_decoding   (per-batch): 0.000025 s
+compute_layer_decoding (per-batch): 0.005079 s
+Outputs:
+----------------------------------------------------------------------
+0: Paris is the capital city of France
+----------------------------------------------------------------------
+3: Paris is the capital city of France
+----------------------------------------------------------------------
+
+TorchDevice: cuda:0
+  cur_mem: 0.0313 GB,  peak_mem: 0.5607 GB
+TorchDevice: cpu
+  cur_mem: 0.0000 GB,  peak_mem: 0.0000 GB
+model size: 2.443 GB	cache size: 0.105 GB	hidden size (p): 0.002 GB
+peak gpu mem: 0.561 GB	projected: True
+prefill latency: 0.298 s	prefill throughput: 1720.948 token/s
+decode latency: 4.113 s	decode throughput: 14.587 token/s
+total latency: 4.411 s	total throughput: 14.510 token/s

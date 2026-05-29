@@ -1,0 +1,45 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+
+Fetching 1 files:   0%|          | 0/1 [00:00<?, ?it/s]
+Fetching 1 files: 100%|██████████| 1/1 [00:25<00:00, 25.57s/it]
+Fetching 1 files: 100%|██████████| 1/1 [00:25<00:00, 25.57s/it]
+
+Convert format:   0%|          | 0/1 [00:00<?, ?it/s]
+
+  0%|          | 0/389 [00:00<?, ?it/s][A
+
+ 10%|▉         | 37/389 [00:00<00:00, 368.82it/s][A
+
+ 37%|███▋      | 143/389 [00:00<00:00, 770.62it/s][A
+
+ 63%|██████▎   | 247/389 [00:00<00:00, 893.08it/s][A
+
+ 89%|████████▉ | 347/389 [00:00<00:00, 932.79it/s][A
+
+                                                  [A
+Convert format: 100%|██████████| 1/1 [00:01<00:00,  1.44s/it]
+Convert format: 100%|██████████| 1/1 [00:01<00:00,  1.44s/it]
+/home/warren/myenv/lib/python3.12/site-packages/torch/__init__.py:1172: FutureWarning: `torch.distributed.reduce_op` is deprecated, please use `torch.distributed.ReduceOp` instead
+  return isinstance(obj, torch.Tensor)
+<run_flexllmgen>: args.model: facebook/opt-1.3b
+model size: 2.443 GB, cache size: 0.105 GB, hidden size (prefill): 0.002 GB
+init weight...
+Load the pre-trained pytorch weights of opt-1.3b from huggingface. The downloading and cpu loading can take dozens of minutes. If it seems to get stuck, you can monitor the progress by checking the memory usage of this process.
+warmup - generate
+benchmark - generate
+Outputs:
+----------------------------------------------------------------------
+0: Paris is the capital city of France. It is the most populous city in France, with an estimated population of
+----------------------------------------------------------------------
+3: Paris is the capital city of France. It is the most populous city in France, with an estimated population of
+----------------------------------------------------------------------
+
+TorchDevice: cuda:0
+  cur_mem: 2.6738 GB,  peak_mem: 2.8293 GB
+TorchDevice: cpu
+  cur_mem: 0.0000 GB,  peak_mem: 0.0000 GB
+model size: 2.443 GB	cache size: 0.105 GB	hidden size (p): 0.002 GB
+peak gpu mem: 2.829 GB	projected: False
+prefill latency: 0.021 s	prefill throughput: 24262.149 token/s
+decode latency: 0.210 s	decode throughput: 285.872 token/s
+total latency: 0.231 s	total throughput: 277.072 token/s
