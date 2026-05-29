@@ -1,0 +1,16 @@
+[global]
+filename=./fio_specs_test_file
+size=4g
+direct=1
+ioengine=libaio
+stonewall
+
+[max_seq_read]
+rw=read
+bs=1m
+iodepth=32
+
+[max_rand_read]
+rw=randread
+bs=4k
+iodepth=128

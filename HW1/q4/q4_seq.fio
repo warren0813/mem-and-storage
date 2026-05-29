@@ -1,0 +1,15 @@
+[global]
+filename=./fio_test_file
+bs=4k
+size=64m
+ioengine=libaio
+iodepth=16
+stonewall
+
+[seq_read_buffered]
+rw=read
+direct=0
+
+[seq_read_nonbuffered]
+rw=read
+direct=1

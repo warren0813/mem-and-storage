@@ -1,0 +1,12 @@
+[global]
+filename=./fio_test_file
+bs=4k
+size=64m
+direct=1
+stonewall
+
+[write]
+rw=write
+
+[randwrite]
+rw=randwrite

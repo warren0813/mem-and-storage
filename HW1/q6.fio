@@ -1,0 +1,12 @@
+[global]
+filename=./fio_test_file
+size=64m
+rw=read
+direct=1
+stonewall
+
+[read_4k]
+bs=4k
+
+[read_1k]
+bs=1k

@@ -1,0 +1,15 @@
+[global]
+filename=./fio_test_file
+bs=4k
+size=64m
+direct=1
+ioengine=libaio
+iodepth=16
+stonewall
+
+[forward_write]
+rw=write
+
+[backward_write]
+rw=write
+offset_increment=-4k
